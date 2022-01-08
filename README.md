@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> de87ca20747c365f6b95b0a6bec45d2fc7d465bb
@@ -75,3 +76,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 A personal project to connect people and share knowledge, made with &lt;3 
 >>>>>>> 97b1bf0832886e15efa82eef21edf3ef1967d539
 >>>>>>> de87ca20747c365f6b95b0a6bec45d2fc7d465bb
+=======
+# Brainmates
+Un espacio para compartir conocimiento creado con &lt;3 y laravel
+>>>>>>> d13c0c65d877c03ec0b696ff84909099e89498d1
