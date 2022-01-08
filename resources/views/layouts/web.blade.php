@@ -51,7 +51,8 @@
         </nav>
     </header>    
     <main>
-
+        <x-slides />
+        @yield('content')
     </main>
     <footer>
 
