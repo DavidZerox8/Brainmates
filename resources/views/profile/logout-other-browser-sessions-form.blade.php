@@ -31,7 +31,11 @@
 
                         <div class="ml-3">
                             <div class="text-sm text-gray-600">
+<<<<<<< HEAD
                                 {{ $session->agent->platform() }} - {{ $session->agent->browser() }}
+=======
+                                {{ $session->agent->platform() ? $session->agent->platform() : 'Unknown' }} - {{ $session->agent->browser() ? $session->agent->browser() : 'Unknown' }}
+>>>>>>> de87ca20747c365f6b95b0a6bec45d2fc7d465bb
                             </div>
 
                             <div>
@@ -86,7 +90,11 @@
                     {{ __('Cancel') }}
                 </x-jet-secondary-button>
 
+<<<<<<< HEAD
                 <x-jet-button class="ml-2"
+=======
+                <x-jet-button class="ml-3"
+>>>>>>> de87ca20747c365f6b95b0a6bec45d2fc7d465bb
                             wire:click="logoutOtherBrowserSessions"
                             wire:loading.attr="disabled">
                     {{ __('Log Out Other Browser Sessions') }}

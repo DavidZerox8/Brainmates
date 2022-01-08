@@ -32,7 +32,11 @@
                 </div>
 
                 <!-- New Profile Photo Preview -->
+<<<<<<< HEAD
                 <div class="mt-2" x-show="photoPreview">
+=======
+                <div class="mt-2" x-show="photoPreview" style="display: none;">
+>>>>>>> de87ca20747c365f6b95b0a6bec45d2fc7d465bb
                     <span class="block rounded-full w-20 h-20 bg-cover bg-no-repeat bg-center"
                           x-bind:style="'background-image: url(\'' + photoPreview + '\');'">
                     </span>
